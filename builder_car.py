@@ -185,7 +185,6 @@ if __name__=="__main__":
             get_car(builder_class)
         else: 
             print("Вы ввели некорректные данные, попробуйте ещё раз.")
-
     elif len(argv) == 2:
         car_name = argv[1].lower()
         builder_class = cars_builders.get(car_name)
